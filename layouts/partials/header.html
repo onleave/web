@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Apply Leave, Simplified. OnLeave helps offices all around the world manage leave applications with minimum effort.">
+    <meta name="author" content="">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ .Site.BaseUrl }}images/icons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ .Site.BaseUrl }}images/icons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ .Site.BaseUrl }}images/icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ .Site.BaseUrl }}images/icons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ .Site.BaseUrl }}images/icons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ .Site.BaseUrl }}images/icons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ .Site.BaseUrl }}images/icons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ .Site.BaseUrl }}images/icons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseUrl }}images/icons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="{{ .Site.BaseUrl }}images/icons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{ .Site.BaseUrl }}images/icons/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="{{ .Site.BaseUrl }}images/icons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="{{ .Site.BaseUrl }}images/icons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="{{ .Site.BaseUrl }}images/icons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="{{ .Site.BaseUrl }}images/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="msapplication-TileImage" content="{{ .Site.BaseUrl }}images/icons/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>OnLeave | {{ .Title }}</title>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:bold' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="{{ .Site.BaseUrl }}bootstrap-3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ .Site.BaseUrl }}font-awesome-4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ .Site.BaseUrl }}css/app.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="{{ .Site.BaseUrl }}assets/js/0657ad4a514a.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- Static navbar -->
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"></a>
+        </div>
+        <div class="navbar-collapse collapse">
+            
+    <ul class="nav navbar-nav">
+        <li class="{{ if eq .Section "" }}active{{ end }}"><a href="/">Home</a></li>
+        <li class="{{ if eq .Section "pricing" }}active{{ end }}"><a href="/pricing">Pricing</a></li>
+    </ul>
+    
+        <ul class="nav navbar-nav navbar-right">
+            <li class=""><a href="http://app.onleaveapp.com/auth/signup/"><span class="btn-outline">Sign up</span></a>
+            <li class=""><a href="http://app.onleaveapp.com/auth/login/">Sign in</a>
+            </li>
+        </ul>
+
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</div>

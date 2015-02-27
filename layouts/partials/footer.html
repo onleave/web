@@ -1,0 +1,42 @@
+<div class="container">
+        <hr>
+        <footer class="small">
+            <a href="/terms/">Terms & conditions</a> | <a href="/privacy/">Privacy
+            policy</a> | <a href="http://app.onleaveapp.com/contact/">Contact us</a>
+
+            <div class="pull-right">OnLeave &copy; 2015</div>
+        </footer>
+</div>
+<div class="container">
+    &nbsp;
+</div>
+<!-- /container -->
+
+<script src="{{ .Site.BaseUrl }}js/jquery-1.11.1.min.js"></script>
+<script src="{{ .Site.BaseUrl }}bootstrap-3.3.1/js/bootstrap.min.js"></script>
+<script src="{{ .Site.BaseUrl }}fastclick-1.0.3/fastclick.js"></script>
+<script type="text/javascript">
+    $(function () {
+        FastClick.attach(document.body);
+    });
+</script>
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-530336-20', 'auto');
+    ga('send', 'pageview');
+
+</script>
+</body>
+</html>

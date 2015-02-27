@@ -1,0 +1,272 @@
+html {
+    overflow-y: scroll;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    .form-control {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    .form-control {
+        font-size: 14px;
+    }
+}
+
+.page-header {
+    margin: 20px 0 20px;
+}
+
+.btn-outline {
+    padding: 10px;
+
+    color: inherit;
+    border: 3px solid #e7e7e7;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+
+input[type='text'],
+input[type='email'],
+input[type='search'],
+input[type='password'] {
+    -webkit-appearance: none;
+    -moz-appearance: none; /* mobile firefox too! */
+}
+
+textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none; /* mobile firefox too! */
+}
+
+/*header*/
+
+.navbar-brand {
+    width: 180px;
+    height: 50px;
+
+    background: url('../images/logo-header.png') no-repeat center;
+    background-size: 141px 28px;
+}
+
+/* for high resolution display */
+@media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+    .navbar-brand {
+        width: 180px;
+        height: 50px;
+
+        background: url('../images/logo-header-2x.png') no-repeat center;
+        background-size: 141px 28px;
+    }
+}
+
+.navbar-static-top {
+    margin-bottom: 19px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+}
+
+
+/*billing/home.html*/
+
+.plan-container {
+    text-align: center;
+}
+
+.plan {
+    display: inline-block;
+
+    width: 250px;
+    height: 300px;
+    margin: 0 13px 26px 13px;
+
+    text-align: center;
+    vertical-align: top;
+
+    color: #333;
+    border: 5px solid #e3e3e3;
+    background-color: #fff;
+}
+
+.plan.active {
+    border: 5px solid #08c;
+}
+
+.plan .title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.plan .price {
+    margin-bottom: 30px;
+}
+
+.plan .content {
+    font-size: 15px;
+
+    margin-bottom: 30px;
+}
+
+.plan .footer {
+    margin-bottom: 30px;
+}
+
+.plan .footer .btn-bottom-text {
+    padding: 10px;
+}
+
+.plan .footer .current-text {
+    display: inline-block;
+
+    height: 45px;
+
+    vertical-align: middle;
+}
+
+.plan .footer .current-text .current-text-inner {
+    display: table-cell;
+
+    height: 45px;
+
+    vertical-align: middle;
+}
+
+.plan .loading {
+    display: inline-block;
+
+    width: 16px;
+    height: 16px;
+
+    background: url(../images/progress_small.gif) no-repeat center;
+}
+
+/* web/pricing.html*/
+.pricing-title {
+    font-size: x-large;
+
+    padding: 10px 0 30px 0;
+
+    text-align: center;
+
+    color: #777;
+}
+
+/*web/home.html*/
+.main-hero {
+    font-family: 'Open Sans', sans-serif;
+
+    margin: 0;
+    padding: 0;
+    padding-bottom: 60px;
+
+    text-align: center;
+
+    border: 0;
+}
+
+.main-hero h1 {
+    font-size: 50px;
+    line-height: 65px;
+
+    color: #333;
+}
+
+.main-hero h2 {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 33px;
+
+    margin-bottom: 20px;
+    padding: 30px;
+
+    color: #666;
+}
+
+.main-hero h2 .minimum-box {
+    display: inline-block;
+    max-width: 700px;
+}
+
+.main-content {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+
+    margin: 0;
+
+    text-align: center;
+
+    color: #666;
+    border: 0;
+    background-color: #e2f4fe;
+}
+
+.main-content .inner {
+    display: table;
+
+    width: 100%;
+    height: 375px;
+}
+
+@media screen and (max-width: 991px) {
+    .main-content .right-item {
+        height: auto !important;
+        padding: 60px 0 60px 0;
+    }
+
+    .main-content .left-item {
+        height: auto !important;
+        padding-bottom: 60px;
+    }
+
+    .main-content .inner .text {
+        padding: 0 20px 0 20px !important;
+    }
+}
+
+.main-content .inner .vcenter {
+    display: table-cell;
+
+    vertical-align: middle;
+}
+
+.main-content .inner .text {
+    padding: 0 100px 0 100px;
+
+    text-align: left;
+}
+
+.main-content img {
+    box-sizing: border-box;
+    max-width: 90%;
+    max-height: 320px;
+    padding: 0;
+}
+
+.main-content h2 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+
+    color: #333;
+}
+
+.alt {
+    background-color: #fff;
+}
+
+.main-footer {
+    margin: 0;
+    padding: 40px;
+
+    text-align: center;
+
+    border: 0;
+}
